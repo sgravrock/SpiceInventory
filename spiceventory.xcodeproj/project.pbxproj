@@ -13,7 +13,6 @@
 		AAF782F120BA2DE3003B5FE8 /* spiceventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF782EF20BA2DE3003B5FE8 /* spiceventory.xcdatamodeld */; };
 		AAF782F320BA2DE3003B5FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF782F220BA2DE3003B5FE8 /* Assets.xcassets */; };
 		AAF782F620BA2DE3003B5FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF782F420BA2DE3003B5FE8 /* LaunchScreen.storyboard */; };
-		AAF7830120BA2DE3003B5FE8 /* spiceventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7830020BA2DE3003B5FE8 /* spiceventoryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		AAF782F520BA2DE3003B5FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF782F720BA2DE3003B5FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAF782FC20BA2DE3003B5FE8 /* spiceventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spiceventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAF7830020BA2DE3003B5FE8 /* spiceventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spiceventoryTests.swift; sourceTree = "<group>"; };
 		AAF7830220BA2DE3003B5FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +91,6 @@
 		AAF782FF20BA2DE3003B5FE8 /* spiceventoryTests */ = {
 			isa = PBXGroup;
 			children = (
-				AAF7830020BA2DE3003B5FE8 /* spiceventoryTests.swift */,
 				AAF7830220BA2DE3003B5FE8 /* Info.plist */,
 			);
 			path = spiceventoryTests;
@@ -212,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF7830120BA2DE3003B5FE8 /* spiceventoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +404,7 @@
 				AAF7830720BA2DE3003B5FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAF7830820BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "spiceventoryTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +413,7 @@
 				AAF7830A20BA2DE3003B5FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
