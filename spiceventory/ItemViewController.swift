@@ -1,20 +1,16 @@
 import UIKit
 
 class ItemViewController: UITableViewController {
-
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1;
-    }
+    private var _dataSource: UITableViewDataSource? = nil
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3;
-    }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "normal cell")!
-        cell.textLabel?.text = "Item \(indexPath.row)"
-        return cell
+    var dataSource: UITableViewDataSource? {
+        get {
+            return _dataSource
+        }
+        
+        set {
+            _dataSource = newValue
+            tableView.dataSource = newValue
+        }
     }
 }

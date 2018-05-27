@@ -5,6 +5,12 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+        if let rootController = window?.rootViewController as? ItemViewController {
+            rootController.dataSource = ItemDataSource()
+        }
+    }
 
     func applicationWillTerminate(_ application: UIApplication) {
         self.saveContext()

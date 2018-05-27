@@ -15,6 +15,8 @@
 		AAF782F620BA2DE3003B5FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF782F420BA2DE3003B5FE8 /* LaunchScreen.storyboard */; };
 		AAF7831320BB4CAC003B5FE8 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7831220BB4CAC003B5FE8 /* ItemViewController.swift */; };
 		AAF7831420BB4CAC003B5FE8 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7831220BB4CAC003B5FE8 /* ItemViewController.swift */; };
+		AAF7831620BB4D96003B5FE8 /* ItemDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7831520BB4D96003B5FE8 /* ItemDataSource.swift */; };
+		AAF7831720BB4D96003B5FE8 /* ItemDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7831520BB4D96003B5FE8 /* ItemDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 		AAF782FC20BA2DE3003B5FE8 /* spiceventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spiceventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF7830220BA2DE3003B5FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAF7831220BB4CAC003B5FE8 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		AAF7831520BB4D96003B5FE8 /* ItemDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 				AAF782F720BA2DE3003B5FE8 /* Info.plist */,
 				AAF782EF20BA2DE3003B5FE8 /* spiceventory.xcdatamodeld */,
 				AAF7831220BB4CAC003B5FE8 /* ItemViewController.swift */,
+				AAF7831520BB4D96003B5FE8 /* ItemDataSource.swift */,
 			);
 			path = spiceventory;
 			sourceTree = "<group>";
@@ -208,6 +212,7 @@
 				AAF7831320BB4CAC003B5FE8 /* ItemViewController.swift in Sources */,
 				AAF782F120BA2DE3003B5FE8 /* spiceventory.xcdatamodeld in Sources */,
 				AAF782E920BA2DE3003B5FE8 /* AppDelegate.swift in Sources */,
+				AAF7831620BB4D96003B5FE8 /* ItemDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF7831420BB4CAC003B5FE8 /* ItemViewController.swift in Sources */,
+				AAF7831720BB4D96003B5FE8 /* ItemDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
