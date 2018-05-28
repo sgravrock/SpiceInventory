@@ -1,7 +1,7 @@
 import UIKit
 import CoreData
 
-class ItemDataSource: NSObject, UITableViewDataSource {
+class ItemsDataSource: NSObject, UITableViewDataSource {
     
     private let persistentContainer: NSPersistentContainer
     private var items: [NSManagedObject] = []

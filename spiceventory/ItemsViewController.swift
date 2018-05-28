@@ -1,9 +1,9 @@
 import UIKit
 
-class ItemViewController: UITableViewController {
-    private var _dataSource: ItemDataSource? = nil
+class ItemsViewController: UITableViewController {
+    private var _dataSource: ItemsDataSource? = nil
     
-    var dataSource: ItemDataSource? {
+    var dataSource: ItemsDataSource? {
         get {
             return _dataSource
         }

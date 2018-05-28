@@ -7,8 +7,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func applicationDidFinishLaunching(_ application: UIApplication) {
-        if let rootController = window?.rootViewController as? ItemViewController {
-            rootController.dataSource = ItemDataSource(persistentContainer: self.persistentContainer)
+        if let rootController = window?.rootViewController as? ItemsViewController {
+            rootController.dataSource = ItemsDataSource(persistentContainer: self.persistentContainer)
         }
     }
 
