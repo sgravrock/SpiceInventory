@@ -4,7 +4,7 @@ import CoreData
 class ItemsDataSource: NSObject, UITableViewDataSource {
     
     private let persistentContainer: NSPersistentContainer
-    private var items: [NSManagedObject] = []
+    private var items: [Item] = []
     
     init(persistentContainer: NSPersistentContainer) {
         self.persistentContainer = persistentContainer
@@ -14,7 +14,7 @@ class ItemsDataSource: NSObject, UITableViewDataSource {
         do {
             self.items = try persistentContainer.viewContext.fetch(
                 NSFetchRequest(entityName: "Item")
-            )
+            ) as! [Item]
         } catch let error as NSError {
             // TODO: How to handle this?
             print("Error fetching data: \(error)")
@@ -24,8 +24,8 @@ class ItemsDataSource: NSObject, UITableViewDataSource {
     func add(name: String) {
         let entity = NSEntityDescription.entity(forEntityName: "Item",
                                        in: persistentContainer.viewContext)!
-        let item = NSManagedObject(entity: entity, insertInto: persistentContainer.viewContext)
-        item.setValue(name, forKey: "name")
+        let item = Item(entity: entity, insertInto: persistentContainer.viewContext)
+        item.name = name
         
         do {
             try persistentContainer.viewContext.save()
@@ -46,7 +46,7 @@ class ItemsDataSource: NSObject, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "normal cell")!
-        cell.textLabel?.text = items[indexPath.row].value(forKey: "name") as? String
+        cell.textLabel?.text = items[indexPath.row].name
         return cell
     }
 
