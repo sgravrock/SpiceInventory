@@ -15,9 +15,9 @@ class ItemsDataSource: NSObject, UITableViewDataSource, ItemCellDelegate {
     
     func fetch() {
         do {
-            self.items = try persistentContainer.viewContext.fetch(
-                NSFetchRequest(entityName: "Item")
-            ) as! [Item]
+            let req = NSFetchRequest<NSFetchRequestResult>(entityName: "Item")
+            req.sortDescriptors = [NSSortDescriptor(key: "name", ascending: true)]
+            self.items = try persistentContainer.viewContext.fetch(req) as! [Item]
         } catch let error as NSError {
             // TODO: How to handle this?
             print("Error fetching data: \(error)")
@@ -33,6 +33,7 @@ class ItemsDataSource: NSObject, UITableViewDataSource, ItemCellDelegate {
         do {
             try persistentContainer.viewContext.save()
             items.append(item)
+            items.sort(by: {$0.name < $1.name})
         } catch let error as NSError {
             // TODO: How to handle this?
             print("Error fetching data: \(error)")

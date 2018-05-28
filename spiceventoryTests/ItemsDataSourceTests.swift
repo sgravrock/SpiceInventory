@@ -30,19 +30,22 @@ class ItemsDataSourceTests: XCTestCase {
         item.name = name
     }
     
-    func testProvidesItems() {
+    func namesInTable() -> [String] {
+        let view = StubTableView()
+        let n = subject.tableView(view, numberOfRowsInSection: 0)
+        return (0..<n).map { (i: Int) -> String in
+            let cell = subject.tableView(view, cellForRowAt: IndexPath(row: i, section: 0))
+            return cell.textLabel!.text!
+        }
+    }
+    
+    func testProvidesItemsInAlphaOrder() {
         addItem(name: "foo")
         addItem(name: "bar")
         subject.fetch()
-        let view = StubTableView()
-        XCTAssertEqual(subject.tableView(view, numberOfRowsInSection: 0), 2);
-        let names = (0..<2).map { (i: Int) -> String in
-            let cell = subject.tableView(view, cellForRowAt: IndexPath(row: i, section: 0))
-            return cell.textLabel!.text!
-        }.sorted()
-        XCTAssertEqual(names, ["bar", "foo"])
+        XCTAssertEqual(namesInTable(), ["bar", "foo"])
     }
-    
+
     func testSavesItems() {
         subject.add(name: "a new item")
         let request: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "Item")
@@ -52,4 +55,12 @@ class ItemsDataSourceTests: XCTestCase {
         XCTAssertEqual(results[0].amount, Amount.Plenty)
     }
 
+    func testAddsItemsInAlphaOrder() {
+        addItem(name: "b")
+        subject.fetch()
+        subject.add(name: "c")
+        subject.add(name: "a")
+        XCTAssertEqual(namesInTable(), ["a", "b", "c"])
+    }
+    
 }
