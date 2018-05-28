@@ -169,11 +169,13 @@
 				TargetAttributes = {
 					AAF782E420BA2DE3003B5FE8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FYS52FL8VF;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					AAF782FB20BA2DE3003B5FE8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FYS52FL8VF;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AAF782E420BA2DE3003B5FE8;
@@ -306,6 +308,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FYS52FL8VF;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -364,6 +367,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FYS52FL8VF;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
