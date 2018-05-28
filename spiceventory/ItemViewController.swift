@@ -1,9 +1,9 @@
 import UIKit
 
 class ItemViewController: UITableViewController {
-    private var _dataSource: UITableViewDataSource? = nil
+    private var _dataSource: ItemDataSource? = nil
     
-    var dataSource: UITableViewDataSource? {
+    var dataSource: ItemDataSource? {
         get {
             return _dataSource
         }
@@ -12,5 +12,9 @@ class ItemViewController: UITableViewController {
             _dataSource = newValue
             tableView.dataSource = newValue
         }
+    }
+    
+    override func viewDidLoad() {
+        _dataSource!.fetch()
     }
 }

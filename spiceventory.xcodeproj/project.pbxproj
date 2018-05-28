@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA40762320BB937F004565FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AAF782E520BA2DE3003B5FE8 /* spiceventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spiceventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF782E820BA2DE3003B5FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF782EA20BA2DE3003B5FE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,12 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA40762220BB937F004565FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA40762320BB937F004565FA /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AAF782DC20BA2DE3003B5FE8 = {
 			isa = PBXGroup;
 			children = (
 				AAF782E720BA2DE3003B5FE8 /* spiceventory */,
 				AAF782FF20BA2DE3003B5FE8 /* spiceventoryTests */,
 				AAF782E620BA2DE3003B5FE8 /* Products */,
+				AA40762220BB937F004565FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
