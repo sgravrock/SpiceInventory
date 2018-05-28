@@ -33,5 +33,17 @@ class ItemsViewController: UITableViewController {
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         
         present(alert, animated: true)
-    }    
+    }
+    
+    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        
+        let title = NSLocalizedString("Delete", comment: "Delete action")
+        let action = UITableViewRowAction(style: .destructive,
+                                          title: title) { (action, indexPath) in
+                                            self.dataSource?.delete(itemAt: indexPath.row)
+                                            self.tableView.reloadData()
+        }
+        
+        return [action]
+    }
 }

@@ -39,6 +39,12 @@ class ItemsDataSource: NSObject, UITableViewDataSource, ItemCellDelegate {
         }
     }
     
+    func delete(itemAt index: Int) {
+        persistentContainer.viewContext.delete(items[index])
+        items.remove(at: index)
+        save()
+    }
+    
     func save() {
         do {
             try persistentContainer.viewContext.save()
