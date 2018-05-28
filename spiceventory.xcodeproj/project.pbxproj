@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AAA5B82220BC5745003113B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82120BC5745003113B0 /* Item.swift */; };
 		AAA5B82320BC5745003113B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82120BC5745003113B0 /* Item.swift */; };
+		AAA5B82520BC5DFE003113B0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82420BC5DFE003113B0 /* ItemCell.swift */; };
+		AAA5B82620BC5DFE003113B0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82420BC5DFE003113B0 /* ItemCell.swift */; };
 		AAF782E920BA2DE3003B5FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF782E820BA2DE3003B5FE8 /* AppDelegate.swift */; };
 		AAF782EE20BA2DE3003B5FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF782EC20BA2DE3003B5FE8 /* Main.storyboard */; };
 		AAF782F120BA2DE3003B5FE8 /* spiceventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF782EF20BA2DE3003B5FE8 /* spiceventory.xcdatamodeld */; };
@@ -33,6 +35,7 @@
 /* Begin PBXFileReference section */
 		AA40762320BB937F004565FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AAA5B82120BC5745003113B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AAA5B82420BC5DFE003113B0 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		AAF782E520BA2DE3003B5FE8 /* spiceventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spiceventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF782E820BA2DE3003B5FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF782ED20BA2DE3003B5FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +106,7 @@
 				AAF7831220BB4CAC003B5FE8 /* ItemsViewController.swift */,
 				AAF7831520BB4D96003B5FE8 /* ItemsDataSource.swift */,
 				AAA5B82120BC5745003113B0 /* Item.swift */,
+				AAA5B82420BC5DFE003113B0 /* ItemCell.swift */,
 			);
 			path = spiceventory;
 			sourceTree = "<group>";
@@ -224,6 +228,7 @@
 				AAF7831320BB4CAC003B5FE8 /* ItemsViewController.swift in Sources */,
 				AAF782F120BA2DE3003B5FE8 /* spiceventory.xcdatamodeld in Sources */,
 				AAF782E920BA2DE3003B5FE8 /* AppDelegate.swift in Sources */,
+				AAA5B82520BC5DFE003113B0 /* ItemCell.swift in Sources */,
 				AAF7831620BB4D96003B5FE8 /* ItemsDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA5B82620BC5DFE003113B0 /* ItemCell.swift in Sources */,
 				AAF7831420BB4CAC003B5FE8 /* ItemsViewController.swift in Sources */,
 				AAA5B82320BC5745003113B0 /* Item.swift in Sources */,
 				AAF7831720BB4D96003B5FE8 /* ItemsDataSource.swift in Sources */,

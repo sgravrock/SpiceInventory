@@ -1,6 +1,7 @@
 import UIKit
 
 class ItemsViewController: UITableViewController {
+    
     private var _dataSource: ItemsDataSource? = nil
     
     var dataSource: ItemsDataSource? {
@@ -32,5 +33,5 @@ class ItemsViewController: UITableViewController {
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         
         present(alert, animated: true)
-    }
+    }    
 }
