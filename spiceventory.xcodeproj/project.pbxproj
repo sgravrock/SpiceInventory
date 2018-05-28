@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4CB93B20BC8E65000BC310 /* ItemsDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4CB93A20BC8E65000BC310 /* ItemsDataSourceTests.swift */; };
+		AA4CB93C20BC9201000BC310 /* spiceventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF782EF20BA2DE3003B5FE8 /* spiceventory.xcdatamodeld */; };
+		AA4CB93E20BC9529000BC310 /* StubTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4CB93D20BC9529000BC310 /* StubTableView.swift */; };
 		AAA5B82220BC5745003113B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82120BC5745003113B0 /* Item.swift */; };
 		AAA5B82320BC5745003113B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82120BC5745003113B0 /* Item.swift */; };
 		AAA5B82520BC5DFE003113B0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82420BC5DFE003113B0 /* ItemCell.swift */; };
@@ -34,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		AA40762320BB937F004565FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA4CB93A20BC8E65000BC310 /* ItemsDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsDataSourceTests.swift; sourceTree = "<group>"; };
+		AA4CB93D20BC9529000BC310 /* StubTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubTableView.swift; sourceTree = "<group>"; };
 		AAA5B82120BC5745003113B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AAA5B82420BC5DFE003113B0 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		AAF782E520BA2DE3003B5FE8 /* spiceventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spiceventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				AAF7830220BA2DE3003B5FE8 /* Info.plist */,
+				AA4CB93A20BC8E65000BC310 /* ItemsDataSourceTests.swift */,
+				AA4CB93D20BC9529000BC310 /* StubTableView.swift */,
 			);
 			path = spiceventoryTests;
 			sourceTree = "<group>";
@@ -240,8 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA5B82620BC5DFE003113B0 /* ItemCell.swift in Sources */,
+				AA4CB93E20BC9529000BC310 /* StubTableView.swift in Sources */,
 				AAF7831420BB4CAC003B5FE8 /* ItemsViewController.swift in Sources */,
 				AAA5B82320BC5745003113B0 /* Item.swift in Sources */,
+				AA4CB93B20BC8E65000BC310 /* ItemsDataSourceTests.swift in Sources */,
+				AA4CB93C20BC9201000BC310 /* spiceventory.xcdatamodeld in Sources */,
 				AAF7831720BB4D96003B5FE8 /* ItemsDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
