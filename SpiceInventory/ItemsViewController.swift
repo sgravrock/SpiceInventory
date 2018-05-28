@@ -24,9 +24,11 @@ class ItemsViewController: UITableViewController {
                                       message: nil,
                                       preferredStyle: .alert)
         alert.addTextField()
+        let nameField = alert.textFields!.first!
+        nameField.autocapitalizationType = .sentences
+        nameField.autocorrectionType = .yes
         let addAction = UIAlertAction(title: "Add", style: .default) { (action) in
-            let name = alert.textFields!.first!.text!
-            self.dataSource?.add(name: name)
+            self.dataSource?.add(name: nameField.text!)
             self.tableView.reloadData()
         }
         alert.addAction(addAction)
