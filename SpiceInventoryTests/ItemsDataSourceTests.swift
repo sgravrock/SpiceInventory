@@ -13,7 +13,7 @@ class ItemsDataSourceTests: XCTestCase {
         description.type = NSInMemoryStoreType
         description.shouldAddStoreAsynchronously = false
         
-        container = NSPersistentContainer(name: "spiceventory", managedObjectModel: managedObjectModel)
+        container = NSPersistentContainer(name: "SpiceInventory", managedObjectModel: managedObjectModel)
         container.persistentStoreDescriptions = [description]
         container.loadPersistentStores { (description, error) in
             precondition(description.type == NSInMemoryStoreType)

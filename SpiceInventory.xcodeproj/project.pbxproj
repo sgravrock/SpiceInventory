@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA4CB93B20BC8E65000BC310 /* ItemsDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4CB93A20BC8E65000BC310 /* ItemsDataSourceTests.swift */; };
-		AA4CB93C20BC9201000BC310 /* spiceventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF782EF20BA2DE3003B5FE8 /* spiceventory.xcdatamodeld */; };
+		AA4CB93C20BC9201000BC310 /* SpiceInventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF782EF20BA2DE3003B5FE8 /* SpiceInventory.xcdatamodeld */; };
 		AA4CB93E20BC9529000BC310 /* StubTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4CB93D20BC9529000BC310 /* StubTableView.swift */; };
 		AAA5B82220BC5745003113B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82120BC5745003113B0 /* Item.swift */; };
 		AAA5B82320BC5745003113B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82120BC5745003113B0 /* Item.swift */; };
@@ -16,7 +16,7 @@
 		AAA5B82620BC5DFE003113B0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B82420BC5DFE003113B0 /* ItemCell.swift */; };
 		AAF782E920BA2DE3003B5FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF782E820BA2DE3003B5FE8 /* AppDelegate.swift */; };
 		AAF782EE20BA2DE3003B5FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF782EC20BA2DE3003B5FE8 /* Main.storyboard */; };
-		AAF782F120BA2DE3003B5FE8 /* spiceventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF782EF20BA2DE3003B5FE8 /* spiceventory.xcdatamodeld */; };
+		AAF782F120BA2DE3003B5FE8 /* SpiceInventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF782EF20BA2DE3003B5FE8 /* SpiceInventory.xcdatamodeld */; };
 		AAF782F320BA2DE3003B5FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF782F220BA2DE3003B5FE8 /* Assets.xcassets */; };
 		AAF782F620BA2DE3003B5FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF782F420BA2DE3003B5FE8 /* LaunchScreen.storyboard */; };
 		AAF7831320BB4CAC003B5FE8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7831220BB4CAC003B5FE8 /* ItemsViewController.swift */; };
@@ -31,7 +31,7 @@
 			containerPortal = AAF782DD20BA2DE3003B5FE8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AAF782E420BA2DE3003B5FE8;
-			remoteInfo = spiceventory;
+			remoteInfo = SpiceInventory;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,14 +41,14 @@
 		AA4CB93D20BC9529000BC310 /* StubTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubTableView.swift; sourceTree = "<group>"; };
 		AAA5B82120BC5745003113B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AAA5B82420BC5DFE003113B0 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
-		AAF782E520BA2DE3003B5FE8 /* spiceventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spiceventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF782E520BA2DE3003B5FE8 /* SpiceInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiceInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF782E820BA2DE3003B5FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF782ED20BA2DE3003B5FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AAF782F020BA2DE3003B5FE8 /* spiceventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = spiceventory.xcdatamodel; sourceTree = "<group>"; };
+		AAF782F020BA2DE3003B5FE8 /* SpiceInventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpiceInventory.xcdatamodel; sourceTree = "<group>"; };
 		AAF782F220BA2DE3003B5FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAF782F520BA2DE3003B5FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF782F720BA2DE3003B5FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAF782FC20BA2DE3003B5FE8 /* spiceventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spiceventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF782FC20BA2DE3003B5FE8 /* SpiceInventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiceInventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF7830220BA2DE3003B5FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAF7831220BB4CAC003B5FE8 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		AAF7831520BB4D96003B5FE8 /* ItemsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsDataSource.swift; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 		AAF782DC20BA2DE3003B5FE8 = {
 			isa = PBXGroup;
 			children = (
-				AAF782E720BA2DE3003B5FE8 /* spiceventory */,
-				AAF782FF20BA2DE3003B5FE8 /* spiceventoryTests */,
+				AAF782E720BA2DE3003B5FE8 /* SpiceInventory */,
+				AAF782FF20BA2DE3003B5FE8 /* SpiceInventoryTests */,
 				AAF782E620BA2DE3003B5FE8 /* Products */,
 				AA40762220BB937F004565FA /* Frameworks */,
 			);
@@ -93,13 +93,13 @@
 		AAF782E620BA2DE3003B5FE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAF782E520BA2DE3003B5FE8 /* spiceventory.app */,
-				AAF782FC20BA2DE3003B5FE8 /* spiceventoryTests.xctest */,
+				AAF782E520BA2DE3003B5FE8 /* SpiceInventory.app */,
+				AAF782FC20BA2DE3003B5FE8 /* SpiceInventoryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAF782E720BA2DE3003B5FE8 /* spiceventory */ = {
+		AAF782E720BA2DE3003B5FE8 /* SpiceInventory */ = {
 			isa = PBXGroup;
 			children = (
 				AAF782E820BA2DE3003B5FE8 /* AppDelegate.swift */,
@@ -107,31 +107,31 @@
 				AAF782F220BA2DE3003B5FE8 /* Assets.xcassets */,
 				AAF782F420BA2DE3003B5FE8 /* LaunchScreen.storyboard */,
 				AAF782F720BA2DE3003B5FE8 /* Info.plist */,
-				AAF782EF20BA2DE3003B5FE8 /* spiceventory.xcdatamodeld */,
+				AAF782EF20BA2DE3003B5FE8 /* SpiceInventory.xcdatamodeld */,
 				AAF7831220BB4CAC003B5FE8 /* ItemsViewController.swift */,
 				AAF7831520BB4D96003B5FE8 /* ItemsDataSource.swift */,
 				AAA5B82120BC5745003113B0 /* Item.swift */,
 				AAA5B82420BC5DFE003113B0 /* ItemCell.swift */,
 			);
-			path = spiceventory;
+			path = SpiceInventory;
 			sourceTree = "<group>";
 		};
-		AAF782FF20BA2DE3003B5FE8 /* spiceventoryTests */ = {
+		AAF782FF20BA2DE3003B5FE8 /* SpiceInventoryTests */ = {
 			isa = PBXGroup;
 			children = (
 				AAF7830220BA2DE3003B5FE8 /* Info.plist */,
 				AA4CB93A20BC8E65000BC310 /* ItemsDataSourceTests.swift */,
 				AA4CB93D20BC9529000BC310 /* StubTableView.swift */,
 			);
-			path = spiceventoryTests;
+			path = SpiceInventoryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAF782E420BA2DE3003B5FE8 /* spiceventory */ = {
+		AAF782E420BA2DE3003B5FE8 /* SpiceInventory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF7830520BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "spiceventory" */;
+			buildConfigurationList = AAF7830520BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "SpiceInventory" */;
 			buildPhases = (
 				AAF782E120BA2DE3003B5FE8 /* Sources */,
 				AAF782E220BA2DE3003B5FE8 /* Frameworks */,
@@ -141,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = spiceventory;
-			productName = spiceventory;
-			productReference = AAF782E520BA2DE3003B5FE8 /* spiceventory.app */;
+			name = SpiceInventory;
+			productName = SpiceInventory;
+			productReference = AAF782E520BA2DE3003B5FE8 /* SpiceInventory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AAF782FB20BA2DE3003B5FE8 /* spiceventoryTests */ = {
+		AAF782FB20BA2DE3003B5FE8 /* SpiceInventoryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF7830820BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "spiceventoryTests" */;
+			buildConfigurationList = AAF7830820BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "SpiceInventoryTests" */;
 			buildPhases = (
 				AAF782F820BA2DE3003B5FE8 /* Sources */,
 				AAF782F920BA2DE3003B5FE8 /* Frameworks */,
@@ -159,9 +159,9 @@
 			dependencies = (
 				AAF782FE20BA2DE3003B5FE8 /* PBXTargetDependency */,
 			);
-			name = spiceventoryTests;
-			productName = spiceventoryTests;
-			productReference = AAF782FC20BA2DE3003B5FE8 /* spiceventoryTests.xctest */;
+			name = SpiceInventoryTests;
+			productName = SpiceInventoryTests;
+			productReference = AAF782FC20BA2DE3003B5FE8 /* SpiceInventoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AAF782E020BA2DE3003B5FE8 /* Build configuration list for PBXProject "spiceventory" */;
+			buildConfigurationList = AAF782E020BA2DE3003B5FE8 /* Build configuration list for PBXProject "SpiceInventory" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,8 +202,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAF782E420BA2DE3003B5FE8 /* spiceventory */,
-				AAF782FB20BA2DE3003B5FE8 /* spiceventoryTests */,
+				AAF782E420BA2DE3003B5FE8 /* SpiceInventory */,
+				AAF782FB20BA2DE3003B5FE8 /* SpiceInventoryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 			files = (
 				AAA5B82220BC5745003113B0 /* Item.swift in Sources */,
 				AAF7831320BB4CAC003B5FE8 /* ItemsViewController.swift in Sources */,
-				AAF782F120BA2DE3003B5FE8 /* spiceventory.xcdatamodeld in Sources */,
+				AAF782F120BA2DE3003B5FE8 /* SpiceInventory.xcdatamodeld in Sources */,
 				AAF782E920BA2DE3003B5FE8 /* AppDelegate.swift in Sources */,
 				AAA5B82520BC5DFE003113B0 /* ItemCell.swift in Sources */,
 				AAF7831620BB4D96003B5FE8 /* ItemsDataSource.swift in Sources */,
@@ -251,7 +251,7 @@
 				AAF7831420BB4CAC003B5FE8 /* ItemsViewController.swift in Sources */,
 				AAA5B82320BC5745003113B0 /* Item.swift in Sources */,
 				AA4CB93B20BC8E65000BC310 /* ItemsDataSourceTests.swift in Sources */,
-				AA4CB93C20BC9201000BC310 /* spiceventory.xcdatamodeld in Sources */,
+				AA4CB93C20BC9201000BC310 /* SpiceInventory.xcdatamodeld in Sources */,
 				AAF7831720BB4D96003B5FE8 /* ItemsDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +261,7 @@
 /* Begin PBXTargetDependency section */
 		AAF782FE20BA2DE3003B5FE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAF782E420BA2DE3003B5FE8 /* spiceventory */;
+			target = AAF782E420BA2DE3003B5FE8 /* SpiceInventory */;
 			targetProxy = AAF782FD20BA2DE3003B5FE8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,9 +401,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = spiceventory/Info.plist;
+				INFOPLIST_FILE = SpiceInventory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Gravrock.spiceventory";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Gravrock.SpiceInventory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -414,9 +414,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = spiceventory/Info.plist;
+				INFOPLIST_FILE = SpiceInventory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Gravrock.spiceventory";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Gravrock.SpiceInventory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -428,13 +428,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = spiceventoryTests/Info.plist;
+				INFOPLIST_FILE = SpiceInventoryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Gravrock.spiceventoryTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Gravrock.SpiceInventoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spiceventory.app/spiceventory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiceInventory.app/SpiceInventory";
 			};
 			name = Debug;
 		};
@@ -443,20 +443,20 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = spiceventoryTests/Info.plist;
+				INFOPLIST_FILE = SpiceInventoryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Gravrock.spiceventoryTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Gravrock.SpiceInventoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spiceventory.app/spiceventory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiceInventory.app/SpiceInventory";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAF782E020BA2DE3003B5FE8 /* Build configuration list for PBXProject "spiceventory" */ = {
+		AAF782E020BA2DE3003B5FE8 /* Build configuration list for PBXProject "SpiceInventory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF7830320BA2DE3003B5FE8 /* Debug */,
@@ -465,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF7830520BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "spiceventory" */ = {
+		AAF7830520BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "SpiceInventory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF7830620BA2DE3003B5FE8 /* Debug */,
@@ -474,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF7830820BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "spiceventoryTests" */ = {
+		AAF7830820BA2DE3003B5FE8 /* Build configuration list for PBXNativeTarget "SpiceInventoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF7830920BA2DE3003B5FE8 /* Debug */,
@@ -486,13 +486,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AAF782EF20BA2DE3003B5FE8 /* spiceventory.xcdatamodeld */ = {
+		AAF782EF20BA2DE3003B5FE8 /* SpiceInventory.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AAF782F020BA2DE3003B5FE8 /* spiceventory.xcdatamodel */,
+				AAF782F020BA2DE3003B5FE8 /* SpiceInventory.xcdatamodel */,
 			);
-			currentVersion = AAF782F020BA2DE3003B5FE8 /* spiceventory.xcdatamodel */;
-			path = spiceventory.xcdatamodeld;
+			currentVersion = AAF782F020BA2DE3003B5FE8 /* SpiceInventory.xcdatamodel */;
+			path = SpiceInventory.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
