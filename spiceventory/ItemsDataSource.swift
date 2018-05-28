@@ -19,8 +19,6 @@ class ItemsDataSource: NSObject, UITableViewDataSource {
             // TODO: How to handle this?
             print("Error fetching data: \(error)")
         }
-        
-        self.add(name: "Item \(items.count + 1)")
     }
     
     func add(name: String) {

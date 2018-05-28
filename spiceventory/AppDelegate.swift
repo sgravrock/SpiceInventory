@@ -7,9 +7,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func applicationDidFinishLaunching(_ application: UIApplication) {
-        if let rootController = window?.rootViewController as? ItemsViewController {
-            rootController.dataSource = ItemsDataSource(persistentContainer: self.persistentContainer)
-        }
+        let navController = window?.rootViewController as! UINavigationController
+        let itemsController = navController.viewControllers[0] as! ItemsViewController
+        itemsController.dataSource = ItemsDataSource(persistentContainer: self.persistentContainer)
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
